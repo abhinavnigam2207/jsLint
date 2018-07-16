@@ -1,72 +1,119 @@
-.hidden{
-    display: none;
+/* .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
 }
 
-.textJSONinput{
-    width: 95%;
-    height: 200px;
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+} */
+
+body{
+    background: whitesmoke;
+}
+
+.container {
+    margin: 1%;
+}
+
+.input-json-textarea {
+    width: 100%;
+    height: 550px;
     border: 1px solid grey;
-    border-radius: 3px;
+    overflow-y: scroll;
+    background: #ececec;
 }
 
-.btn {
+.btn-group{
+    margin-top: 1%;
+    padding: 0.5rem; 
+}
+
+.btn{
     display: inline-block;
-    padding: 8px;
-    margin: 0 5px;
-    font-size: 11px;
-    line-height: 15px;
-    color: #5e5e5e;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
     text-align: center;
+    white-space: nowrap;
     vertical-align: middle;
+    touch-action: manipulation;
     cursor: pointer;
-    background-color: #d1dade;
-    -webkit-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    background-image: none !important;
-    border: none;
-    text-shadow: none;
-    box-shadow: none;
-    transition: all 0.12s linear 0s !important;
-    font: 11px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0 10px;
 }
-.btn-cons {
-    margin-right: 5px;
-    min-width: 120px;
-    margin-bottom: 8px;
-}
+
 .btn-default {
     color: #333;
     background-color: #fff;
     border-color: #ccc;
 }
+
 .btn-primary {
     color: #fff;
-    background-color: #428bca;
-    border-color: #357ebd;
+    background-color: #337ab7;
+    border-color: #2e6da4;
 }
+
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
 }
+
 .btn-info {
     color: #fff;
     background-color: #5bc0de;
     border-color: #46b8da;
 }
+
 .btn-warning {
     color: #fff;
     background-color: #f0ad4e;
     border-color: #eea236;
 }
+
 .btn-danger {
     color: #fff;
     background-color: #d9534f;
     border-color: #d43f3a;
 }
-.btn-white {
-    color: #5e5e5e;
-    background-color: #fff;
-    border: 1px solid #e5e9ec;
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px; 
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.hidden {
+    display: none;
 }

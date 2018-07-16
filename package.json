@@ -1,25 +1,22 @@
 {
   "name": "jslint",
   "version": "1.0.0",
-  "description": "Lint unformatted JSON to formatted JSON.",
+  "description": "Tool to lint JSON input",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --hot"
   },
-  "keywords": [
-    "JSLint"
-  ],
-  "author": "Abhinav Nigam",
+  "author": "Abhinav",
   "license": "MIT",
   "dependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "webpack": "^4.16.0",
+    "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
