@@ -10,9 +10,25 @@
 
 body{
     background: whitesmoke;
+    margin: 0px !important;
 }
 
-.container {
+header{
+    color: grey;
+    background: black;
+    height: 45px;
+    font-size: 39px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+}
+
+h2{
+    margin: 5px 0px 10px 0px;
+}
+
+.main-section {
     margin: 1%;
 }
 
@@ -22,11 +38,6 @@ body{
     border: 1px solid grey;
     overflow-y: scroll;
     background: #ececec;
-}
-
-.btn-group{
-    margin-top: 1%;
-    padding: 0.5rem; 
 }
 
 .btn{
@@ -44,7 +55,7 @@ body{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .btn-default {
