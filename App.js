@@ -52,7 +52,7 @@
                 <div className="container">
                     <header> JSON Lint</header>
                     <div class="main-section">
-                    <h2>Secure, Client-Side, Network-Free JSON Linting</h2>
+                    <h2>Secure, Client-Side, Network-Free JSON Linting.</h2>
                     <div className="btn-group">
                         <div className="btn btn-primary" onClick={this.formatJSON}>Format</div>
                         <div className="btn btn-warning" onClick={this.removeWhiteSpace}>Remove White Space</div>
